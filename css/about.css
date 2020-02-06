@@ -1,5 +1,5 @@
 .card-about {
-    height: 100%;
+    background: #fff;
 }
 .about-row {
     display: flex;
@@ -12,7 +12,7 @@
     /* margin-bottom: 45px; */
     padding: 10px;
     width: 650px;
-    height: 100%;
+    min-height: 500px;
     min-width: 240px;
 }
 .about-img-text_row {
@@ -46,15 +46,11 @@
     /* height: 10px; */
     background: red;
 }
-
-
-/* Убираем стандартный вывод метки списка */
 .about_point {
     list-style-type: none;
     
     
 }
-/* Нужно обязательно указать высоту строки и позиционирование */
 .about_point>li {
     font-size: 18px;
     line-height: 18px;
@@ -63,17 +59,13 @@
 }
 .about_point>li::before {
     color: #000;
-    /* UTF-8 escape sequence, соответствующая символу "Маркер списка" */
     content:"\2022";
-    /* Делаем больше, чем основной текст в li */
     font-size: 26px;
     font-weight: 700;
-    /* Элемент вырван из потока, выравниваем отрицательным отступом */
     left: -15px;
-    /* Высота строки и позиционирование необходимы для выравнивания по вертикали */
     line-height: 18px;        
     position: absolute;
-    top: 0;
+    top: 3px;
 }
 
 
@@ -81,10 +73,15 @@
     display: flex;
     flex-direction: row; /*Делает строчный*/
     /* justify-content: space-between; Распределяет пространство между блоками */
-    align-items: center; /*Выравнивает элементы по одной линии по центру */
+    /* align-items: center; Выравнивает элементы по одной линии по центру */
     /* flex-wrap: wrap; */
 }
 
 .size-specifications {
     width: 325px;
+}
+
+.card-about_right_area>ul, .card-about_right_specifications>ul {
+    list-style-type: none;
+    padding-left: 10px;
 }
