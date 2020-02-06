@@ -1,0 +1,28 @@
+/* font-family: 'Roboto', sans-serif; */
+* {
+    /* поддерживает Firefox, WebKit, Opera и IE8+ */
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    max-width: 1300px;
+    /* min-width: 0; */
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,72 @@
+/* --------------------------------Настройка footer -----------------------  */
+footer {
+    /* position: absolute; */
+    bottom: 0;
+    background-color: #2c2c2c;
+    color: #dcdcdc;
+}
+
+.footer-row {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.fuser-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #dcdcdc;
+}
+.footer__nav-link:hover {
+    transition: color 0.2s;
+    color: #dfdede;  
+}
+.footer-socialnet {
+    max-width: 170px;
+}
+.footer-socialnet a {
+    text-decoration: none;
+    outline: none;
+    margin-left: 25px;
+    
+}
+.footer-socialnet a:nth-child(2) {
+    margin-left: 0px;
+}
+.footer-socialnet img{
+    margin-top: 12px;
+    width: 35px;
+    height: 35px;
+}
+
+
+.footer-nav {
+    padding-top: 15px;
+    /* padding-left: 20px; */
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__nav-link {
+    display: block;
+    padding-top: 15px;
+    text-decoration: none;
+    color: #999999;
+
+    font-size: 16px;
+}
+
+
+
+.author {
+    padding: 20px;
+    color: #999999;
+}
+.subsoc {
+    line-height: 25px;
+}
+
+/* -------------------------------- //Настройка footer -----------------------  */

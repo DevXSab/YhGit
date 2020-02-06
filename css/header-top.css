@@ -1,0 +1,81 @@
+/* -------------верхнее меню header-top-panel--------------  */
+.user-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.header-top-panel {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.header-top_row {
+    display: flex;
+    flex-direction: row; /*Делает строчный*/
+    justify-content: space-between; /*Распределяет пространство между блоками */
+    align-items: center; /*Выравнивает элементы по одной линии по центру */
+}
+@media(max-width: 880px) {
+    .header-top_row {
+        flex-direction: column;
+        justify-content: right;
+    }
+}
+.logo-text {
+    margin: 0;
+    font-size: 71px;
+}
+@media(max-width: 380px) {
+    .logo-text {
+        font-size: 55px;
+    }
+    .logo-span-e {
+        height: 77px !important;  
+    }
+}
+.logo-span-s{
+    display: inline-block;
+    /* color: red; */
+    transform: rotate(25deg);
+}
+.logo-span-e{
+    height: 94px;
+    display: inline-block;
+    /* color: red; */
+    -moz-transform: rotate(-155deg); /* Для Firefox */
+    -ms-transform: rotate(-155deg); /* Для IE */
+    -webkit-transform: rotate(-155deg); /* Для Safari, Chrome, iOS */
+    -o-transform: rotate(-155deg); /* Для Opera */
+    transform: rotate(-155deg);
+}
+
+.header-top-user_row {
+    display: flex;
+    flex-direction: row; /*Делает строчный*/
+    justify-content: space-between; /*Распределяет пространство между блоками */
+    align-items: center; /*Выравнивает элементы по одной линии по центру */  
+}
+@media(max-width: 680px) {
+    .header-top-user_row {
+        flex-direction: column; /*Делает строчный*/
+    }
+}
+@media(max-width: 450px) {
+    .header-top-user_row {
+        display: none;
+    }
+}
+.header-contact_user {
+    width: 240px;
+    height: 90px;
+}
+.top_user {
+    display: flex;
+    align-items: center;
+    margin-bottom: 7px;
+}
+.img-user {
+    margin-right: 25px;
+}
+/* --------------//верхнее меню  header-top-panel-----------------*/
