@@ -1,85 +1,87 @@
-.conteiner {
-max-width: 1300px;
-margin-right: auto;
-margin-left: auto;
-/* background: red; */
-}
-
-
-
+/* ---------------------Стили страницы Мероприятия--------------------------- */
 .card-activity {
     padding: 5px;
+    margin-bottom: 25px;
 }
-
 .card-activity_row {
     display: flex;
 
 }
-
+@media(max-width: 900px) {
+    .card-activity_row {
+        align-items: center;
+        flex-direction: column;
+    }
+}
 .card-activity_img>img {
     width: 225px;
     height: 150px;
 }
-
-
 .card-activity_text {
     margin-left: 20px;
     font-size: 16px;
     font-family: Arial, sans-serif;
 }
-
 .card-activity_title {
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 18px;
 }
-
-
 .card-activity_title>span {
     color: #999999;
     font-size: 18px;
 }
-
 .card-activity_description {
     line-height: 1.5;
 }
-
 .card-activity_gogo {
     margin-top: 20px;
     
 }
-
 .card-activity_gogo>a {
+    cursor: pointer;
     text-decoration: none;
     font-size: 20px;
     color: #0069d9;
     font-weight: bold;
     font-family: Arial, sans-serif;
-
-    
-
-    
 }
-
 .card-activity_gogo>a:hover {
     color: #999999;
     text-decoration: underline;
     transition: 0.5s;
     
 }
-
-
-
-
 .pagination {
-    width: 370px;
+    text-align: center;
+    /* max-width: 370px; */
     margin-left: auto;
     margin-right: auto;
     margin-top: 250px;
+    /* background: red; */
 }
-
 .pagination_row {
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pagination-text {
+    font-size: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    transition: 0.3s;
+}
+.pagination-text:hover {
+    cursor: pointer;
+    color: #dddddd;
+    
+}
+@media(max-width: 900px) {
+    .pagination-text {
+        font-size: 16px;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
 }
 
 .pagination>ul {
@@ -96,9 +98,24 @@ margin-left: auto;
     display: flex;
     align-items: center;
     justify-content: center;
-}
+    transition: 0.3s;
 
+    font-size: 20px;
+}
+.pagination>ul>li:hover {
+    background: #dddddd;
+    cursor: pointer;
+    
+}
 .pagination_active {
     background: #5f3131;
+    color: #ffffff;
+}
+.pagination_active:hover {
+    background: #5f3131 !important; 
 }
 
+
+
+
+/* ---------------------//Стили страницы Мероприятия--------------------------- */
