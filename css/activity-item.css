@@ -1,6 +1,15 @@
-.container {
+.activity_item {
     width: 970px;
     margin-left: auto;
     margin-right: auto;
     background: red;
+}
+
+.item-row {
+    display: flex;
+    justify-content: space-between;
+}
+.activity_item-description>img {
+    float: left;
+
 }
