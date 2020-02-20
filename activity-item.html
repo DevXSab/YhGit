@@ -1,29 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Главная</title>
-    <!-- <link rel="stylesheet" href="libs/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="libs/assets/owl.theme.default.css"> -->
-
+    <title>Activity-Item</title>
 
     <link href="https://fonts.googleapis.com/css?family=Farro:400,700|Noto+Serif:400,700|PT+Sans:400,700&display=swap&subset=cyrillic-ext,latin-ext" rel="stylesheet">
-
-        
     <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/activity.css"> -->
     <link rel="stylesheet" href="css/fonts.css">
-    <!-- <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/header-top.css">
-    <link rel="stylesheet" href="css/header-menu.css">
-    <link rel="stylesheet" href="css/content.css">
-    <link rel="stylesheet" href="css/footer.css"> -->
-    
+    <link rel="stylesheet" href="css/activity-item.css">
+    <link rel="stylesheet" href="css/fonts.css">
+
 
 </head>
-
 <body>
     <!-- header-top-panel -->
     <div class="header-top-panel">
@@ -55,113 +46,97 @@
         <div class="container">
                 <div class="dropmenu"><a href="#" id="drop-menu" class="btn-menu"><span></span></a></div>
             <nav id="DMenu" class="header-nav">
-                <a class="header__nav-link header__nav-link--active" href="index.html">Главная</a>
+                <a class="header__nav-link" href="index.html">Главная</a>
                 <a class="header__nav-link" href="about.html">О Нас</a>
-                <a class="header__nav-link" href="activity-item.html">Мероприятия</a>
+                <a class="header__nav-link header__nav-link--active" href="activity.html">Мероприятия</a>
                 <a class="header__nav-link" href="#">Запись</a>
                 <a class="header__nav-link" href="#">Контакты</a>
             </nav>
         </div>
     </div>
      <!-- //header-menu -->
-
      <!-- содержимое сайта content -->
-     <div class="content">
+
+       <!-- содержимое сайта content -->
+       <div class="content">
         <div class="container">
+            <h1 class="crumbs MyriadPro">Главная / Мероприятия / <span>GARDA TROPHY 2020
+            </span></h1>
             <div class="content_row">
                 <!-- Левый блок с контентом -->
-                <div class="content-left Calibri">
-                    <!-- блок с каруселью -->
-                    <link type="text/css" rel="stylesheet" href="css/swiper.min.css" />
-                    <style>
-                        .swiper-container {
-                            width: 100%;
-                        }
-                        .swiper-slide {
-                            text-align: center;
-                            font-size: 18px;
-                            background: #fff;
-                            /* Center slide text vertically */
-                            display: -webkit-box;
-                            display: -ms-flexbox;
-                            display: -webkit-flex;
-                            display: flex;
-                            -webkit-box-pack: center;
-                            -ms-flex-pack: center;
-                            -webkit-justify-content: center;
-                            justify-content: center;
-                            -webkit-box-align: center;
-                            -ms-flex-align: center;
-                            -webkit-align-items: center;
-                            align-items: center;
-                        }
-                        .swiper-slide img{
-                            width: 100%;
-                        }
-                    </style>
-                    <div class="swiper-container">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <img src="img/carusel.png" alt="1">
-                            </div>
-                        </div>
-                        <div class="swiper-pagination"></div>
+                <div class="activity_item Calibri">
+                    <div class="item-row MyriadPro">
+                        <div class="activity_item-title">GARDA TROPHY 2020</div>
+                        <div class="activity_item-date">Опубликовано 10.12.2019 • Просмотров 15</div>
                     </div>
-                    <script type="text/javascript" src="js/swiper.min.js"></script>
-                    <script>
-                        window.onload = function(){
-                            var swiper = new Swiper('.swiper-container', {
-                                pagination: {
-                                    el: '.swiper-pagination',
-                                },
-                            });
-                            window.onresize = function() {
-                                console.log('d');
-                                swiper.updateSlides();
-                            };
-                        };
-                    </script>
-                    <!-- <div class="m-carousel">
-                        <div class="carousel">
-                            <div class="carousel-img">
-                                <img src="img/carusel.png" alt="1">
-                            </div>
-                            <div class="carousel-img">
-                                <img src="img/carusel.png" alt="1">
-                            </div>
-                            <div class="carousel-img">
-                                <img src="img/carusel.png" alt="1">
-                            </div>
-                        </div>
-                     </div> -->
-                    <!-- блок с каруселью -->
+        
+                    <div class="activity_item-description MyriadPro">
+                    <img src="img/img_activity/activity.png" alt="">
+                    <p>Яхт-клуб Fraglia Vela Riva, в котором будет проходить регата, принимает такие соревнования, как Чемпионаты Европы и Мира в классах Melges 32, J/24, J/80 и J/70, а также является организатором крупнейшей регаты в моноклассе “Оптимист” (1055 яхт), что зафиксировано в “Книге рекордов Гиннеса”
 
-                    <h1 class="h-title">Немного о нас</h1>
-                    <!-- блок карточки -->
-                    <div class="card-row">
-                        <div class="card">
-                            <img src="img/windsurfing.png" alt="">
-                            <h2 class="card-title">Профессиональные тренировки</h2>
-                            <p class="card-text">Индивидульные и групповые тренировки. Тренировки проходят от 2 часов. На тренировках мы стараемся научить Вас управлять яхтой и оптимизировать слаженность коллектива. Уровень яхтсмена не важен, главное желание научиться. Каждые выходные можно попробовать свои силы в регате.</p>
-                        </div>
-                        <div class="card">
-                            <img src="img/summer.png" alt="">
-                            <h2 class="card-title">Прогулки на яхте</h2>
-                            <p class="card-text">Прогулки на яхте для семей и не только :) Дети допускаются на яхту в сопровождении родителей. Отличный ознакомительный вариант к яхтингу. Фотоссесия. Свидания. проводится от 1 часа . Ждем Вас на прогулку на яхте!</p>
-                        </div>
-                        <div class="card">
-                            <img src="img/summer-holidays.png" alt="">
-                            <h2 class="card-title">Корпоративы</h2>
-                            <p class="card-text">Корпоративы, проходят ввиде парусной регаты, квеста или маршрутной гонки для слаженной работы коллектива. Вход на яхту строго в трезвом состоянии. Опыт не требуется.</p>
-                        </div>
-                        <div class="card">
-                            <img src="img/regatta.png" alt="">
-                            <h2 class="card-title">Регаты</h2>
-                            <p class="card-text">Каждую неделю проходят в выходные дни регато-тренировочные мероприятия. Также можно взять в аренду яхту на соревнования. Если у Вас недостаточно коллектива, мы можем Вам помочь найти команду, а также предложить опытного тактика.Открыта запись на аренду яхт к Чемпионату Москвы и тд.</p>
-                        </div>
+                        И, конечно, озеро Гарда – отличное место для послегоночного отдыха!
+                        
+                        Классы яхт: J/70 One Design (генакер) | J/80 One Design (генакер)
+                        
+                        Экипаж яхт: J/70 4-5 человек | J/80 5-6 человек
+        
+                        Формат регаты Yachting Rus Cup – это гран-при гонки в двух моноклассах с прямым судейством на воде. Регата будет состоять из коротких гонок “up & down”. Гоняемся на монотипных яхтах классов J/70 и J/80 по системе Парусной Лиги в двух группах c медальными гонками
+                        
+                        Программа Yachting Rus Cup 2020
+                        
+                        25 (сб) апреля
+                            • прибытие в Riva del Garda
+                            • 10:00-18:00 race office YRC.DK открыт в яхт-клубе Fraglia Vela Riva
+                            • 19:00 жеребьёвка по группам АЛЬФА & БРАВО
+                            • вечером неформальная встреча в старом городе
+                        
+                        26 (вс) апреля
+                            • 8:30 группа АЛЬФА шкиперское собрание
+                            • 9:00 группа АЛЬФА короткие гонки | группа БРАВО велопрогулка вдоль озера Гарда
+                            • 13:00 группа БРАВО шкиперское собрание
+                            • 13:30 группа БРАВО короткие гонки | группа АЛЬФА велопрогулка вдоль озера Гарда
+                            • 19:00 церемония открытия и презентации команд
+                        
+                        27 (пн) апреля
+                            • 8:30 группа БРАВО шкиперское собрание
+                            • 9:00 группа БРАВО короткие гонки | группа АЛЬФА прогулка по склону горы Monte Brione до церкви Santa Barbara
+                            • 13:00 группа АЛЬФА шкиперское собрание
+                            • 13:30 группа АЛЬФА короткие гонки | группа БРАВО прогулка по склону горы Monte Brione до церкви Santa Barbara
+                            • 21:00 вечеринка в баре
+                        
+                        ПРИЗЫ:
+                        – переходящий трофей КУБОК YACHTING RUS CUP
+                        – медали за 1, 2 и 3 место
+                        – кубки за 1, 2 и 3 место
+                        – кубоки победителям Серебряного Флота
+                    
+                                    
+                        ПРИЗЫ:
+                        – переходящий трофей КУБОК YACHTING RUS CUP
+                        – медали за 1, 2 и 3 место
+                        – кубки за 1, 2 и 3 место
+                        – кубоки победителям Серебряного Флота
+                                    
+                        ПРИЗЫ:
+                        – переходящий трофей КУБОК YACHTING RUS CUP
+                        – медали за 1, 2 и 3 место
+                        – кубки за 1, 2 и 3 место
+                        – кубоки победителям Серебряного Флота
+                                    
+                        ПРИЗЫ:
+                        – переходящий трофей КУБОК YACHTING RUS CUP
+                        – медали за 1, 2 и 3 место
+                        – кубки за 1, 2 и 3 место
+                        – кубоки победителям Серебряного Флота</p>
+        
                     </div>
-                    <!-- //блок карточки -->
-                </div>
+        
+                    <div class="activity_item_gogo MyriadPro">
+                        <p>25.04.2020 – 01.05.2020</p>
+                        <a href="">Записаться на мероприятие</a>
+                    </div>
+        
+                 </div>
                 <!-- //Левый блок с контентом -->
 
                 <!-- Правый блок с мероприятиями -->
@@ -221,6 +196,9 @@
      </div>
      <!-- //содержимое сайта content -->
 
+
+      <!-- //содержимое сайта content -->
+
      <!-- футер -->
      <footer class="footer Calibri">
         <div class="container">
@@ -264,14 +242,6 @@
     <!-- //футер -->
 
 
-     <script src="js/menu.js"></script>
-
-
-
-     <!-- <script src="js/jq/jquery-3.4.1.min.js"></script>
-     <script src="libs/owl.carousel.min.js"></script>
-     <script src="js/main.js"></script> -->
-
+    <script src="js/menu.js"></script>
 </body>
-
 </html>
