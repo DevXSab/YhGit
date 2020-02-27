@@ -1,9 +1,94 @@
-.MyriadPro {
-    font-family: 'PT Sans', sans-serif;
+@font-face{
+
+    font-family: 'Calibri';
+
+    src: url('../fonts/CALIBRI.eot');
+
+    src: url('../fonts/CALIBRI.eot?iefix') format('eot'),
+
+    url('../fonts/CALIBRI.woff') format('woff'),
+
+    url('../fonts/CALIBRI.ttf') format('truetype');
+
+    font-weight: normal;
+
+    font-style: normal;
 }
+@font-face{
+
+    font-family: 'Calibri-bold';
+
+    src: url('../fonts/CALIBRIB.eot');
+
+    src: url('../fonts/CALIBRIB.eot?iefix') format('eot'),
+
+    url('../fonts/CALIBRIB.woff') format('woff'),
+
+    url('../fonts/CALIBRIB.ttf') format('truetype');
+
+    font-weight: normal;
+
+    font-style: normal;
+}
+
+@font-face{
+
+    font-family: 'Andika';
+    
+    src: url('../fonts/Andika.eot');
+    
+    src: url('../fonts/Andika.eot?iefix') format('eot'),
+    
+    url('../fonts/Andika.woff') format('woff'),
+    
+    url('../fonts/Andika.ttf') format('truetype');
+    
+    font-weight: normal;
+    
+    font-style: normal;
+    }
+
+
+@font-face{
+
+    font-family: 'Roboto';
+
+    src: url('../fonts/ROBOTOSLAB-REGULAR.eot');
+
+    src: url('../fonts/ROBOTOSLAB-REGULAR.eot?iefix') format('eot'),
+
+    url('../fonts/ROBOTOSLAB-REGULAR.woff') format('woff'),
+
+    url('../fonts/ROBOTOSLAB-REGULAR.ttf') format('truetype');
+
+    font-weight: normal;
+
+    font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* .Calibri {
+    font-family: 'Calibri', sans-serif;
+    font-weight: 900;
+} */
+/* .MyriadPro {
+    font-family: 'PT Sans', sans-serif;
+} */
 /* .Tahoma {
     font-family: 'Farro', sans-serif;
 } */
-.Calibri {
+/* .Calibri {
     font-family: 'Noto Serif', serif;
-}
+} */
+
+
