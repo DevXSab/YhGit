@@ -10,9 +10,11 @@
     <link rel="stylesheet" href="libs/assets/owl.theme.default.css"> -->
 
 
-    <link href="https://fonts.googleapis.com/css?family=Farro:400,700|Noto+Serif:400,700|PT+Sans:400,700&display=swap&subset=cyrillic-ext,latin-ext" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css?family=Farro:400,700|Noto+Serif:400,700|PT+Sans:400,700&display=swap&subset=cyrillic-ext,latin-ext"
+        rel="stylesheet">
 
-        
+
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/fonts.css">
     <!-- <link rel="stylesheet" href="css/main.css">
@@ -20,7 +22,7 @@
     <link rel="stylesheet" href="css/header-menu.css">
     <link rel="stylesheet" href="css/content.css">
     <link rel="stylesheet" href="css/footer.css"> -->
-    
+
 
 </head>
 
@@ -30,20 +32,27 @@
         <div class="container">
             <div class="header-top_row">
                 <div class="logo">
-                    <h1 class="logo-text">R<span class="logo-span-s">S</span>ail T<span class="logo-span-e">e</span>am</h1>
+                    <h1 class="logo-text">R<span class="logo-span-s">S</span>ail T<span class="logo-span-e">e</span>am
+                    </h1>
                 </div>
-            <!-- <div class="header-contact"> -->
+                <!-- <div class="header-contact"> -->
                 <div class="header-top-user_row">
                     <div class="header-contact_user">
-                        <div class="top_user"><img class="img-user" src="img/captain.png" width="40" alt=""><span class="header-contact_name">Арина</span></div>
-                        <div class="top_user"><a class="user-link" href="#"><img class="img-user" src="img/whatsapp.png" width="40" alt=""><span class="header-contact_tel">+7 (905) 701 61 19</span></a></div>
+                        <div class="top_user"><img class="img-user" src="img/captain.png" width="40" alt=""><span
+                                class="header-contact_name">Арина</span></div>
+                        <div class="top_user"><a class="user-link" href="#"><img class="img-user" src="img/whatsapp.png"
+                                    width="40" alt=""><span class="header-contact_tel">+7 (905) 701 61 19</span></a>
+                        </div>
                     </div>
                     <div class="header-contact_user">
-                        <div class="top_user"><img class="img-user" src="img/captain.png" width="40" alt=""><span class="header-contact_name">Алексей</span></div>
-                        <div class="top_user"><a class="user-link" href="#"><img class="img-user" src="img/whatsapp.png" width="40" alt=""><span class="header-contact_tel">+7 (962) 968-07-25</span></a></div>
+                        <div class="top_user"><img class="img-user" src="img/captain.png" width="40" alt=""><span
+                                class="header-contact_name">Алексей</span></div>
+                        <div class="top_user"><a class="user-link" href="#"><img class="img-user" src="img/whatsapp.png"
+                                    width="40" alt=""><span class="header-contact_tel">+7 (962) 968-07-25</span></a>
+                        </div>
                     </div>
                 </div>
-            <!-- </div> -->
+                <!-- </div> -->
             </div>
         </div>
     </div>
@@ -52,7 +61,7 @@
     <!-- header-menu -->
     <div class="header-menu">
         <div class="container">
-                <div class="dropmenu"><a href="#" id="drop-menu" class="btn-menu"><span></span></a></div>
+            <div class="dropmenu"><a href="#" id="drop-menu" class="btn-menu"><span></span></a></div>
             <nav id="DMenu" class="header-nav">
                 <a class="header__nav-link header__nav-link--active" href="index.html">Главная</a>
                 <a class="header__nav-link" href="about.html">О Нас</a>
@@ -62,10 +71,10 @@
             </nav>
         </div>
     </div>
-     <!-- //header-menu -->
+    <!-- //header-menu -->
 
-     <!-- содержимое сайта content -->
-     <div class="content">
+    <!-- содержимое сайта content -->
+    <div class="content">
         <div class="container">
             <div class="content_row">
                 <!-- Левый блок с контентом -->
@@ -74,51 +83,57 @@
                     <link type="text/css" rel="stylesheet" href="css/swiper.min.css" />
                     <style>
                         .swiper-container {
-                            width: 100%;
+                            width: 965px;
+                            height: 324px;
                         }
-                        .swiper-slide {
-                            text-align: center;
-                            font-size: 18px;
-                            background: #fff;
-                            /* Center slide text vertically */
-                            display: -webkit-box;
-                            display: -ms-flexbox;
-                            display: -webkit-flex;
-                            display: flex;
-                            -webkit-box-pack: center;
-                            -ms-flex-pack: center;
-                            -webkit-justify-content: center;
-                            justify-content: center;
-                            -webkit-box-align: center;
-                            -ms-flex-align: center;
-                            -webkit-align-items: center;
-                            align-items: center;
-                        }
-                        .swiper-slide img{
-                            width: 100%;
+
+                        .swiper-slide img {
+                            max-width: 100%;
+                            height: auto;
                         }
                     </style>
                     <div class="swiper-container">
+                        <!-- Additional required wrapper -->
                         <div class="swiper-wrapper">
+                            <!-- Slides -->
                             <div class="swiper-slide">
-                                <img src="img/carusel.png" alt="1">
+                                <img src="./img/img_slider/1.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./img/img_slider/2.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="./img/img_slider/1.jpg" alt="">
                             </div>
                         </div>
+                        <!-- If we need pagination -->
                         <div class="swiper-pagination"></div>
+
+                        <!-- If we need navigation buttons -->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
                     </div>
                     <script type="text/javascript" src="js/swiper.min.js"></script>
                     <script>
-                        window.onload = function(){
-                            var swiper = new Swiper('.swiper-container', {
-                                pagination: {
-                                    el: '.swiper-pagination',
-                                },
-                            });
-                            window.onresize = function() {
-                                console.log('d');
-                                swiper.updateSlides();
-                            };
-                        };
+                        var mySwiper = new Swiper('.swiper-container', {
+                            // Optional parameters
+                            direction: 'horizontal',
+                            loop: false,
+
+                            // If we need pagination
+                            pagination: {
+                                el: '.swiper-pagination',
+                            },
+
+                            // Navigation arrows
+                            navigation: {
+                                nextEl: '.swiper-button-next',
+                                prevEl: '.swiper-button-prev',
+                            },
+
+                            // And if we need scrollbar
+
+                        })
                     </script>
                     <!-- <div class="m-carousel">
                         <div class="carousel">
@@ -141,22 +156,32 @@
                         <div class="card">
                             <img src="img/windsurfing.png" alt="">
                             <h2 class="card-title">Профессиональные тренировки</h2>
-                            <p class="card-text">Индивидульные и групповые тренировки. Тренировки проходят от 2 часов. На тренировках мы стараемся научить Вас управлять яхтой и оптимизировать слаженность коллектива. Уровень яхтсмена не важен, главное желание научиться. Каждые выходные можно попробовать свои силы в регате.</p>
+                            <p class="card-text">Индивидульные и групповые тренировки. Тренировки проходят от 2 часов.
+                                На тренировках мы стараемся научить Вас управлять яхтой и оптимизировать слаженность
+                                коллектива. Уровень яхтсмена не важен, главное желание научиться. Каждые выходные можно
+                                попробовать свои силы в регате.</p>
                         </div>
                         <div class="card">
                             <img src="img/summer.png" alt="">
                             <h2 class="card-title">Прогулки на яхте</h2>
-                            <p class="card-text">Прогулки на яхте для семей и не только :) Дети допускаются на яхту в сопровождении родителей. Отличный ознакомительный вариант к яхтингу. Фотоссесия. Свидания. проводится от 1 часа . Ждем Вас на прогулку на яхте!</p>
+                            <p class="card-text">Прогулки на яхте для семей и не только :) Дети допускаются на яхту в
+                                сопровождении родителей. Отличный ознакомительный вариант к яхтингу. Фотоссесия.
+                                Свидания. проводится от 1 часа . Ждем Вас на прогулку на яхте!</p>
                         </div>
                         <div class="card">
                             <img src="img/summer-holidays.png" alt="">
                             <h2 class="card-title">Корпоративы</h2>
-                            <p class="card-text">Корпоративы, проходят ввиде парусной регаты, квеста или маршрутной гонки для слаженной работы коллектива. Вход на яхту строго в трезвом состоянии. Опыт не требуется.</p>
+                            <p class="card-text">Корпоративы, проходят ввиде парусной регаты, квеста или маршрутной
+                                гонки для слаженной работы коллектива. Вход на яхту строго в трезвом состоянии. Опыт не
+                                требуется.</p>
                         </div>
                         <div class="card">
                             <img src="img/regatta.png" alt="">
                             <h2 class="card-title">Регаты</h2>
-                            <p class="card-text">Каждую неделю проходят в выходные дни регато-тренировочные мероприятия. Также можно взять в аренду яхту на соревнования. Если у Вас недостаточно коллектива, мы можем Вам помочь найти команду, а также предложить опытного тактика.Открыта запись на аренду яхт к Чемпионату Москвы и тд.</p>
+                            <p class="card-text">Каждую неделю проходят в выходные дни регато-тренировочные мероприятия.
+                                Также можно взять в аренду яхту на соревнования. Если у Вас недостаточно коллектива, мы
+                                можем Вам помочь найти команду, а также предложить опытного тактика.Открыта запись на
+                                аренду яхт к Чемпионату Москвы и тд.</p>
                         </div>
                     </div>
                     <!-- //блок карточки -->
@@ -173,7 +198,7 @@
                             <p class="event-record">Записаться</p>
                         </div>
                     </div>
-                     <!-- //блок с мероприятием  -->
+                    <!-- //блок с мероприятием  -->
                     <!-- блок с мероприятием  -->
                     <div class="content-right_event">
                         <p class="event-title">J80 Cyprus Championship Winter Series</p>
@@ -182,7 +207,7 @@
                             <p class="event-record">Записаться</p>
                         </div>
                     </div>
-                     <!-- //блок с мероприятием  -->
+                    <!-- //блок с мероприятием  -->
                     <!-- блок с мероприятием  -->
                     <div class="content-right_event">
                         <p class="event-title">J80 Cyprus Championship Winter Series</p>
@@ -191,7 +216,7 @@
                             <p class="event-record">Записаться</p>
                         </div>
                     </div>
-                     <!-- //блок с мероприятием  -->
+                    <!-- //блок с мероприятием  -->
                     <!-- блок с мероприятием  -->
                     <div class="content-right_event">
                         <p class="event-title">J80 Cyprus Championship Winter Series</p>
@@ -200,7 +225,7 @@
                             <p class="event-record">Записаться</p>
                         </div>
                     </div>
-                     <!-- //блок с мероприятием  -->
+                    <!-- //блок с мероприятием  -->
                     <!-- блок с мероприятием  -->
                     <div class="content-right_event">
                         <p class="event-title">J80 Cyprus Championship Winter Series</p>
@@ -209,65 +234,71 @@
                             <p class="event-record">Записаться</p>
                         </div>
                     </div>
-                     <!-- //блок с мероприятием  -->
-                   
+                    <!-- //блок с мероприятием  -->
+
 
                 </div>
                 <!-- //Правый блок с мероприятиями -->
-                
+
             </div>
         </div>
-     </div>
-     <!-- //содержимое сайта content -->
+    </div>
+    <!-- //содержимое сайта content -->
 
-     <!-- футер -->
-     <footer class="footer">
+    <!-- футер -->
+    <footer class="footer">
         <div class="container">
-           <div class="footer-row">
-               <div class="footer-menu">
-                   <nav class="footer-nav">
-                       <a class="footer__nav-link footer__nav-link--active" href="index.html">Главная</a>
-                       <a class="footer__nav-link" href="about.html">О Нас</a>
-                       <a class="footer__nav-link" href="activity.html">Мероприятия</a>
-                       <a class="footer__nav-link" href="#">Запись</a>
-                       <a class="footer__nav-link" href="#">Контакты</a>
-                   </nav>
-               </div>
-
-               <div class="footer-user">
-                <div class="header-top-user_row">
-                    <div class="header-contact_user">
-                        <div class="top_user"><img class="img-user" src="img/captain.png" width="40" alt=""><span class="header-contact_name">Арина</span></div>
-                        <div class="top_user"><a class="fuser-link" href="#"><img class="img-user" src="img/whatsapp.png" width="40" alt=""><span class="header-contact_tel">+7 (905) 701 61 19</span></a></div>
-                    </div>
-                    <div class="header-contact_user">
-                        <div class="top_user"><img class="img-user" src="img/captain.png" width="40" alt=""><span class="header-contact_name">Алексей</span></div>
-                        <div class="top_user"><a class="fuser-link" href="#"><img class="img-user" src="img/whatsapp.png" width="40" alt=""><span class="header-contact_tel">+7 (962) 968-07-25</span></a></div>
-                    </div>
+            <div class="footer-row">
+                <div class="footer-menu">
+                    <nav class="footer-nav">
+                        <a class="footer__nav-link footer__nav-link--active" href="index.html">Главная</a>
+                        <a class="footer__nav-link" href="about.html">О Нас</a>
+                        <a class="footer__nav-link" href="activity.html">Мероприятия</a>
+                        <a class="footer__nav-link" href="#">Запись</a>
+                        <a class="footer__nav-link" href="#">Контакты</a>
+                    </nav>
                 </div>
-                   <p>E-mail: rsail-team@mail.ru</p>
-               </div>
 
-               <div class="footer-socialnet">
-                   <p class="subsoc">Подпишитесь на наши соцсети, чтобы быть в курсе наших новостей</p>
-                   <a href="#"><img src="img/instagram.png" alt=""></a>
-                   <a href="#"><img src="img/vk.png" alt=""></a>
-                   <a href="#"><img src="img/facebook.png" alt=""></a>
-                   
-               </div>
+                <div class="footer-user">
+                    <div class="header-top-user_row">
+                        <div class="header-contact_user">
+                            <div class="top_user"><img class="img-user" src="img/captain.png" width="40" alt=""><span
+                                    class="header-contact_name">Арина</span></div>
+                            <div class="top_user"><a class="fuser-link" href="#"><img class="img-user"
+                                        src="img/whatsapp.png" width="40" alt=""><span class="header-contact_tel">+7
+                                        (905) 701 61 19</span></a></div>
+                        </div>
+                        <div class="header-contact_user">
+                            <div class="top_user"><img class="img-user" src="img/captain.png" width="40" alt=""><span
+                                    class="header-contact_name">Алексей</span></div>
+                            <div class="top_user"><a class="fuser-link" href="#"><img class="img-user"
+                                        src="img/whatsapp.png" width="40" alt=""><span class="header-contact_tel">+7
+                                        (962) 968-07-25</span></a></div>
+                        </div>
+                    </div>
+                    <p>E-mail: rsail-team@mail.ru</p>
+                </div>
 
-           </div>
-           <div class="author">© RSail Team, 2019 | Создание сайтов Web Dingo</div>     
-        </div>     
+                <div class="footer-socialnet">
+                    <p class="subsoc">Подпишитесь на наши соцсети, чтобы быть в курсе наших новостей</p>
+                    <a href="#"><img src="img/instagram.png" alt=""></a>
+                    <a href="#"><img src="img/vk.png" alt=""></a>
+                    <a href="#"><img src="img/facebook.png" alt=""></a>
+
+                </div>
+
+            </div>
+            <div class="author">© RSail Team, 2019 | Создание сайтов Web Dingo</div>
+        </div>
     </footer>
     <!-- //футер -->
 
 
-     <script src="js/menu.js"></script>
+    <script src="js/menu.js"></script>
 
 
 
-     <!-- <script src="js/jq/jquery-3.4.1.min.js"></script>
+    <!-- <script src="js/jq/jquery-3.4.1.min.js"></script>
      <script src="libs/owl.carousel.min.js"></script>
      <script src="js/main.js"></script> -->
 

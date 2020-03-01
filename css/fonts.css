@@ -2,13 +2,13 @@
 
     font-family: 'Calibri';
 
-    src: url('../fonts/CALIBRI.eot');
+    src: url('../fonts/Calibri/Calibri.eot');
 
-    src: url('../fonts/CALIBRI.eot?iefix') format('eot'),
+    src: url('../fonts/Calibri/Calibri.eot?iefix') format('eot'),
 
-    url('../fonts/CALIBRI.woff') format('woff'),
+    url('../fonts/Calibri/Calibri.woff') format('woff'),
 
-    url('../fonts/CALIBRI.ttf') format('truetype');
+    url('../fonts/Calibri/Calibri.ttf') format('truetype');
 
     font-weight: normal;
 
@@ -18,13 +18,13 @@
 
     font-family: 'Calibri-bold';
 
-    src: url('../fonts/CALIBRIB.eot');
+    src: url('../fonts/Calibri/Calibri.eot');
 
-    src: url('../fonts/CALIBRIB.eot?iefix') format('eot'),
+    src: url('../fonts/Calibri/Calibri.eot?iefix') format('eot'),
 
-    url('../fonts/CALIBRIB.woff') format('woff'),
+    url('../fonts/Calibri/Calibri.woff') format('woff'),
 
-    url('../fonts/CALIBRIB.ttf') format('truetype');
+    url('../fonts/Calibri/Calibri.ttf') format('truetype');
 
     font-weight: normal;
 
@@ -35,13 +35,13 @@
 
     font-family: 'Andika';
     
-    src: url('../fonts/Andika.eot');
+    src: url('../fonts/Andika/Andika.eot');
     
-    src: url('../fonts/Andika.eot?iefix') format('eot'),
+    src: url('../fonts/Andika/Andika.eot?iefix') format('eot'),
     
-    url('../fonts/Andika.woff') format('woff'),
+    url('../fonts/Andika/Andika.woff') format('woff'),
     
-    url('../fonts/Andika.ttf') format('truetype');
+    url('../fonts/Andika/Andika.ttf') format('truetype');
     
     font-weight: normal;
     
@@ -53,13 +53,13 @@
 
     font-family: 'Roboto';
 
-    src: url('../fonts/ROBOTOSLAB-REGULAR.eot');
+    src: url('../fonts/Roboto-Regular/Roboto-Regular.eot');
 
-    src: url('../fonts/ROBOTOSLAB-REGULAR.eot?iefix') format('eot'),
+    src: url('../fonts/Roboto-Regular/Roboto-Regular.eot?iefix') format('eot'),
 
-    url('../fonts/ROBOTOSLAB-REGULAR.woff') format('woff'),
+    url('../fonts/Roboto-Regular/Roboto-Regular.woff') format('woff'),
 
-    url('../fonts/ROBOTOSLAB-REGULAR.ttf') format('truetype');
+    url('../fonts/Roboto-Regular/Roboto-Regular.ttf') format('truetype');
 
     font-weight: normal;
 
