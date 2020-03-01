@@ -1,0 +1,61 @@
+.contacts{
+    display: flex;
+    flex-direction: column;
+}
+.contact__item{
+    display: flex;
+    margin-left: 10px;
+}
+.map__google img{
+    display: block;
+    max-width:566px;
+    width: 100%;
+}
+.map__yandex img{
+    display: block;
+    max-width:566px;
+    width: 100%;
+}
+.adress{
+    margin: 10px 0 0 30px;
+    font-size: 18px;
+    font-family: Calibri;
+}
+.contact__item:last-child{
+    margin-top: 60px;
+}
+.map{
+    background-color: #c7e3a9;
+    margin: 50px 0 30px 0;
+}
+.map__img{
+    display: block;
+    width: 100%;
+    max-width: 550px;
+    margin: 0 auto;
+}
+.adress__adres{
+    width: 100%;
+    max-width: 500px;
+}
+.adress__grafic{
+    padding: 15px 0;
+}
+.adress__tel{
+    line-height: 5px;
+    padding-bottom: 20px;
+}
+.adress__item{
+    width: 100%;
+    max-width: 600px;
+}
+@media(max-width :533px) {
+    .adress {
+        font-size: 13px;
+    }
+}
+@media(max-width :396px) {
+    .adress {
+        font-size: 10px;
+    }
+}
