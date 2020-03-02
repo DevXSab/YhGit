@@ -4,6 +4,7 @@
     flex-direction: row; 
     justify-content: space-between; 
     flex-wrap: wrap;
+    font-family: 'Calibri', sans-serif;
 }
 .card-about_size {
     padding: 10px;
@@ -25,6 +26,7 @@
 }
 .about-text {
     font-size:20px;
+    font-family: 'Calibri', sans-serif;
 }
 .card-about_point {
     padding: 2px;
@@ -32,14 +34,14 @@
 
 }
 .about_point {
-    list-style-type: none;
+    /* list-style-type: none; */
     font-size: 20px;
 }
 .about_point>li {
     position: relative;
     line-height: 1.5;
 }
-.about_point>li::before {
+/* .about_point>li::before {
     color: #000;
     content:"\2022";
     font-size: 26px;
@@ -48,7 +50,7 @@
     line-height: 18px;        
     position: absolute;
     top: 3px;
-}
+} */
 .card-about_right_row {
     display: flex;
     flex-direction: row; /*Делает строчный*/
@@ -79,11 +81,25 @@
     padding-left: 65px;
     padding-right: 65px;
 }
+@media(max-width: 830px) {
+    .glav-user {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
 .glav-user_card-row {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
+    font-family: 'Calibri', sans-serif;
+}
+@media(max-width: 830px) {
+    .glav-user_card-row {
+        flex-direction: column;
+        justify-content: right;
+        align-content: center;
+    }
 }
 
 .glav-user_card {
@@ -96,6 +112,7 @@
     font-size: 23px;
     text-align: center;
     margin-bottom: 17px;
+    
 }
 .user-card_img>img {
      width: 250px;
@@ -105,6 +122,7 @@
 .user-card_descript {
     font-size: 18px;
     line-height: 1.5;
+    font-weight: 700;
 }
 /* //user_card */
 

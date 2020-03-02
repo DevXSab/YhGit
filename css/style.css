@@ -6,7 +6,7 @@
 }
 body {
     margin: 0;
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
 }
 .container {
     max-width: 1300px;
@@ -17,6 +17,7 @@ body {
 
 .crumbs {
     font-size: 18px;
+    font-family: 'Roboto', sans-serif;
 }
 .crumbs>span {
     color: #999999;
@@ -566,3 +567,96 @@ footer {
 
 
 /* ---------------------//Стили страницы Мероприятия--------------------------- */
+
+
+
+
+/* <-------------------------------------СТИЛИ ДЛЯ ЗАПИСИ ----------------------------------> */
+.event_box-slate {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 0px;
+    padding-bottom: 45px;
+    padding-left: 170px;
+    padding-right: 170px;
+    background: #ececec;
+    max-width: 775px;
+    margin-left: auto;
+    margin-right: auto;
+    /* height: 715px; */
+    font-family: 'Calibri', sans-serif;
+    border-radius: 10px;
+}
+@media(max-width: 610px) {
+    .event_box-slate {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+.event_box-slate>p {
+    padding-left: 181px;
+    font-size: 18px;
+    margin: 0;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    
+}
+@media(max-width: 1140px) {
+    .event_box-slate>p {
+        text-align: center;
+        padding-left: 0px;
+    }
+}
+
+.event_box-slate>input,select {
+    display: block;
+    width: 410px;
+    height: 33px;
+    margin: 0 auto;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 0;
+    padding-left: 5px;
+}
+@media(max-width: 440px) {
+    .event_box-slate>input,select {
+        width:283px;
+    }
+}
+.event_box-slate>input[type="submit"] {
+    cursor: pointer;
+    background: #3f3f3f;
+    color: aliceblue;
+    border-color:#3f3f3f ;
+    border-radius: 5px;
+    font-size: 18px;
+    width: 175px;
+    height: 40px;
+    margin-top: 90px;
+}
+.event_description-row {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 130px;
+
+}
+.event_description-left, .event_description-right {
+    width: 650px;
+    min-width: 300px;
+}
+.event_description-title {
+    font-size: 19px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+.event_description-text {
+    font-family: 'Calibri', sans-serif;
+    font-size: 15px;
+    padding: 5px;
+}
+/* <-------------------------------------//СТИЛИ ДЛЯ ЗАПИСИ ----------------------------------> */

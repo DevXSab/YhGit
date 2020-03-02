@@ -1,23 +1,18 @@
-.container {
-    max-width: 1300px;
-    margin-left: auto;
-    margin-right: auto;
-    /* background: rgba(210, 212, 210, 0.774); */
-}
+/* <-------------------------------------СТИЛИ ДЛЯ ЗАПИСИ ----------------------------------> */
 .event_box-slate {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 0px;
+    padding-bottom: 45px;
     padding-left: 170px;
     padding-right: 170px;
     background: #ececec;
     max-width: 775px;
     margin-left: auto;
     margin-right: auto;
-    height: 715px;
-
+    /* height: 715px; */
+    font-family: 'Calibri', sans-serif;
     border-radius: 10px;
 }
 @media(max-width: 610px) {
@@ -33,6 +28,7 @@
     margin-top: 30px;
     margin-bottom: 5px;
     font-weight: bold;
+    
 }
 @media(max-width: 1140px) {
     .event_box-slate>p {
@@ -65,7 +61,7 @@
     font-size: 18px;
     width: 175px;
     height: 40px;
-    margin-top: 105px;
+    margin-top: 90px;
 }
 .event_description-row {
     margin-top: 70px;
@@ -76,7 +72,6 @@
 
 }
 .event_description-left, .event_description-right {
-
     width: 650px;
     min-width: 300px;
 }
@@ -84,4 +79,11 @@
     font-size: 19px;
     text-align: center;
     font-weight: bold;
+    font-family: 'Roboto', sans-serif;
 }
+.event_description-text {
+    font-family: 'Calibri', sans-serif;
+    font-size: 15px;
+    padding: 5px;
+}
+/* <-------------------------------------//СТИЛИ ДЛЯ ЗАПИСИ ----------------------------------> */
