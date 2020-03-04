@@ -65,9 +65,9 @@
             <nav id="DMenu" class="header-nav">
                 <a class="header__nav-link header__nav-link--active" href="index.html">Главная</a>
                 <a class="header__nav-link" href="about.html">О Нас</a>
-                <a class="header__nav-link" href="activity-item.html">Мероприятия</a>
-                <a class="header__nav-link" href="#">Запись</a>
-                <a class="header__nav-link" href="#">Контакты</a>
+                <a class="header__nav-link" href="activity.html">Мероприятия</a>
+                <a class="header__nav-link" href="event.html">Запись</a>
+                <a class="header__nav-link" href="contact.html">Контакты</a>
             </nav>
         </div>
     </div>
@@ -86,11 +86,33 @@
                             width: 965px;
                             height: 324px;
                         }
+                        @media(max-width: 1000px) {
+                            .swiper-container {
+                                width: 686px;
+                            }
+                        }
+                        @media(max-width: 725px) {
+                            .swiper-container {
+                                width: 310px;
+                                height: 231px;
+                            }
+                        }
 
-                        .swiper-slide img {
+                        .swiper-slide>img {
                             max-width: 100%;
                             height: auto;
                         }
+                        @media(max-width: 1000px) {
+                            .swiper-slide>img {
+                                height: 323px;
+                            }
+                        }
+                        @media(max-width: 725px) {
+                            .swiper-slide>img {
+                                height: 226px;
+                            }
+                        }
+                        
                     </style>
                     <div class="swiper-container">
                         <!-- Additional required wrapper -->
@@ -119,6 +141,14 @@
                             // Optional parameters
                             direction: 'horizontal',
                             loop: false,
+                            autoplay: {
+                                delay: 2500,
+                            },
+                            breakpoints: {
+                                1000: {
+                                    // el: ''
+                                },
+                            },
 
                             // If we need pagination
                             pagination: {
@@ -254,8 +284,8 @@
                         <a class="footer__nav-link footer__nav-link--active" href="index.html">Главная</a>
                         <a class="footer__nav-link" href="about.html">О Нас</a>
                         <a class="footer__nav-link" href="activity.html">Мероприятия</a>
-                        <a class="footer__nav-link" href="#">Запись</a>
-                        <a class="footer__nav-link" href="#">Контакты</a>
+                        <a class="footer__nav-link" href="event.html">Запись</a>
+                        <a class="footer__nav-link" href="contact.html">Контакты</a>
                     </nav>
                 </div>
 

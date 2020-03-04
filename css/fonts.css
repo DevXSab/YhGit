@@ -16,23 +16,6 @@
 }
 @font-face{
 
-    font-family: 'Calibri-bold';
-
-    src: url('../fonts/Calibri/Calibri.eot');
-
-    src: url('../fonts/Calibri/Calibri.eot?iefix') format('eot'),
-
-    url('../fonts/Calibri/Calibri.woff') format('woff'),
-
-    url('../fonts/Calibri/Calibri.ttf') format('truetype');
-
-    font-weight: normal;
-
-    font-style: normal;
-}
-
-@font-face{
-
     font-family: 'Andika';
     
     src: url('../fonts/Andika/Andika.eot');

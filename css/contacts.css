@@ -1,11 +1,25 @@
+/* ---------------------------------------------СТРАНИЦА КОНТАКТЫ--------------------------------------------------- */
 .contacts{
     display: flex;
     flex-direction: column;
 }
 .contact__item{
     display: flex;
-    margin-left: 10px;
+    flex-wrap: wrap;
+    padding: 0 15px;
+    /* margin-left: 10px; */
 }
+@media(max-width :396px) {
+    .contact__item {
+        font-size: 10px;
+    }
+}
+@media(max-width :1126px) {
+    .contact__item {
+        justify-content: center;
+    }
+}
+
 .map__google img{
     display: block;
     max-width:566px;
@@ -17,9 +31,11 @@
     width: 100%;
 }
 .adress{
-    margin: 10px 0 0 30px;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
     font-size: 18px;
-    font-family: Calibri;
+    font-family: 'Calibri', sans-serif;
 }
 .contact__item:last-child{
     margin-top: 60px;
@@ -49,13 +65,4 @@
     width: 100%;
     max-width: 600px;
 }
-@media(max-width :533px) {
-    .adress {
-        font-size: 13px;
-    }
-}
-@media(max-width :396px) {
-    .adress {
-        font-size: 10px;
-    }
-}
+/* ---------------------------------------------//СТРАНИЦА КОНТАКТЫ--------------------------------------------------- */
